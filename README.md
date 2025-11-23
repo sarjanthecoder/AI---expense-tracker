@@ -1,1 +1,2 @@
 streamlit project
+firebase emmbedded
