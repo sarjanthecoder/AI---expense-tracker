@@ -11,7 +11,8 @@ import pandas as pd
 import time
 import json
 
-# ------------------ CONFIG ------------------
+# ------------------ CONFIG ------------------keep it as private not in oublic  this is only for demo puposes
+
 GEMINI_API_KEY = "AIzaSyDGgu2atNoJNEl8N92mFE7JqJcApk4vb84" 
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
@@ -211,3 +212,4 @@ if st.session_state.authenticated:
         st.bar_chart(chart_data.set_index("month"))
     else:
         st.info("No data found.")            
+
